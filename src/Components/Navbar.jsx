@@ -5,8 +5,8 @@ const Navbar = () => {
     <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
+          <a class="navbar-brand" style={{fontFamily:"Pacifico",fontSize:"2.5rem",color:"#da7d02"}} href="#">
+            Certifo
           </a>
           <button
             class="navbar-toggler"
@@ -19,7 +19,7 @@ const Navbar = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNav" style={{fontFamily: "Quicksand"}}>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
